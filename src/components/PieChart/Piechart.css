@@ -1,0 +1,19 @@
+.pie-container{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-right: 800px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 7px 7px 7px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pie1{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px
+}
