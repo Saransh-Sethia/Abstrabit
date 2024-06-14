@@ -4,6 +4,7 @@ import './Navbar.css';
 import PersonIcon from '@mui/icons-material/Person';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import NavbarLogo from "../../assets/Navbar-Logo.png"
 
 const Navbar = ({openHandler}) => {
     const [showInfo, setShowInfo] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = ({openHandler}) => {
     }
   return (
     <nav className='navbar'>
-        <img src="https://www.svgrepo.com/show/510445/logo-rackext.svg" alt="logo" className='logo' />
+        <img src={NavbarLogo} alt="logo" className='logo' />
         <ul className= "nav-links">
             <Link to="/" className='home'>
                 <li>Dashboard</li>

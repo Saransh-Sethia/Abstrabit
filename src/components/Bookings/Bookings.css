@@ -1,0 +1,12 @@
+.booking-card{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 40px;
+    grid-template-columns: auto auto ;
+    padding: 25px;
+}
+
+.grid-item{
+    margin-right: 100px;
+}
