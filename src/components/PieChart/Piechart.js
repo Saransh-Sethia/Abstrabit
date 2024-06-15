@@ -31,7 +31,7 @@ const Piechart = () => {
         <div className="pie-container">
             <div className="pie1">
             <h2>Your FD Portfolio</h2>
-<InputField />
+
 </div>
 <PieChart width={800} height={400}>
        <Legend

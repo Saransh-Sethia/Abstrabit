@@ -1,0 +1,75 @@
+.schedule-card{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 40px;
+    grid-template-rows: auto auto auto ;
+    padding: 25px;
+    width: 55%
+}
+
+.schedule-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.grid-item{
+    margin-right: 100px;
+}
+
+.date{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.date1{
+    border: 1px solid #c1c1c1;
+    background-color: #c1c1c1;
+    padding: 5px 5px 5px 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.month{
+    border: 1px solid #CE5151;
+    background-color: #CE5151;
+    font-size: 12px;
+    color: #ffffff;
+    width: 30%;
+    height: 35%;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+
+.credentials{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px
+}
+
+.credentials1{
+color:#696767;
+}
+
+/* .btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.btn-1{
+    border: 1px solid #3B39D9;
+ 
+}
+
+.btn-2{
+    border: 2px solid #3B39D9;
+
+}

@@ -1,5 +1,5 @@
-.grid-container{
-    /* display: grid;
-    grid-template-rows: 1fr 1fr; */
-    gap: 50px;
+.item1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
